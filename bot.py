@@ -8,9 +8,9 @@ user_data ={}
 con = psycopg2.connect(
     host = "localhost",
     database = "restaurants",
-    user = "postgres",
-    password = "2825767Yer",
-    port = "5432"
+    user = "",
+    password = "",
+    port = ""
 )
 
 
