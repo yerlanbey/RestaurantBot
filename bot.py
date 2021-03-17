@@ -3,14 +3,14 @@ import telebot
 import psycopg2
 import math
 
-bot = telebot.TeleBot("1081872084:AAG5qlR0IoLM4wXJhAdnQ98YYz-ubQMT-bw")
+bot = telebot.TeleBot("")
 user_data ={}
 con = psycopg2.connect(
     host = "localhost",
     database = "restaurants",
-    user = "postgres",
-    password = "2825767Yer",
-    port = "5432"
+    user = "",
+    password = "",
+    port = ""
 )
 
 
